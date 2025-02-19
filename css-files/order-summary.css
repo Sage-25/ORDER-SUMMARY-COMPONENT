@@ -1,0 +1,101 @@
+.first-section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+  width: 30rem;
+}
+
+.first-section-image {
+  margin-bottom: 2.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.second-section {
+  padding: 0 5rem 4rem 5rem;
+}
+
+.section-2-header {
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.section-2-body {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 4rem 10fr;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.plan-breakdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.annual-plan {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.amount {
+  text-align: left;
+}
+
+.hyperlink {
+  font-family: Red Hat Display;
+  font-weight: 700;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.hyperlink:hover {
+  color: hsl(245, 78%, 65%);
+  text-decoration: none;
+}
+
+.button {
+  display: grid;
+}
+
+.payment-button {
+  margin-bottom: 2rem;
+  border: 0;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  box-shadow: 0 0.6rem 0.7rem hsl(245, 66%, 88%);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.payment-button:hover {
+  background-color: hsl(245, 78%, 65%);
+}
+
+.cancel-button {
+  border: 0 solid;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+}

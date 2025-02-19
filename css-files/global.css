@@ -1,0 +1,30 @@
+p {
+  margin: 0;
+  padding: 0;
+  color: hsl(224, 23%, 55%);
+  font-family: Red Hat Display;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  color: hsl(223, 47%, 23%);
+  font-family: Red Hat Display;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+}
